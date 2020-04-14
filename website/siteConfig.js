@@ -14,15 +14,15 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    image: 'img/kuc_logo.png', //'/img/undraw_open_source.svg',
+    infoLink: 'https://tomokomiyake.github.io/docusaurus-proto/', //'https://www.facebook.com',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'kintone UI Component', // Title for your website.
+  tagline: 'A reference website for kintone UI Component',
   //url: 'https://your-docusaurus-test-site.com', // Your website URL
   //baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -46,24 +46,26 @@ const siteConfig = {
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
+    {search: true},
+    {languages: true}
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/kuc_logo_white.png',
+  //footerIcon: 'img/kuc_logo.png',
+  //favicon: 'img/kuc_logo.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#609f6f',
-    secondaryColor: '#436f4d',
+    primaryColor: '#000', //'#609f6f',
+    secondaryColor: '#333333',// '#24292e', //'#436f4d',
   },
 
   /* Custom fonts for website */
-  /*
+  
   fonts: {
     myFont: [
       "Times New Roman",
@@ -74,14 +76,15 @@ const siteConfig = {
       "system-ui"
     ]
   },
-  */
+  
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Facebook Inc.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     theme: 'default',
+    defaultLang: 'javascript'
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -93,8 +96,16 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
+  ogImage: 'img/kuc_logo.png',
+  twitterImage: 'img/kuc_logo.png',
+  disableHeaderTitle: true,
+  scrollToTop: true,
+
+  // Option for Algolia DocSearch
+  // algolia: {
+  //   apiKey: '',
+  //   indexName: ''
+  // },
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.

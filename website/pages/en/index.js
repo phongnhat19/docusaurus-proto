@@ -13,6 +13,8 @@ const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
+const translate = require('../../server/translate.js').translate;
+
 class HomeSplash extends React.Component {
   render() {
     const {siteConfig, language = ''} = this.props;
@@ -135,11 +137,14 @@ class Index extends React.Component {
       <Block background="light">
         {[
           {
-            content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
+            content:(
+              <translate>
+                Each new Docusaurus project has **randomly-generated** theme colors.
+              </translate>
+            ),
             image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: <translate>Randomly Generated Theme Colors</translate>,
           },
         ]}
       </Block>
