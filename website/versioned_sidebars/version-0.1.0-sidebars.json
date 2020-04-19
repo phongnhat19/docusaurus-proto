@@ -1,0 +1,22 @@
+{
+  "version-0.1.0-docs": {
+    "Developer Guide": [
+      "version-0.1.0-getting-started"
+    ],
+    "API Reference": [
+      "version-0.1.0-components/attachment",
+      "version-0.1.0-components/button",
+      "version-0.1.0-components/checkbox",
+      "version-0.1.0-components/datetime",
+      "version-0.1.0-components/dialog",
+      "version-0.1.0-components/dropdown",
+      "version-0.1.0-components/multiplechoice",
+      "version-0.1.0-components/notifypopup",
+      "version-0.1.0-components/radiobutton",
+      "version-0.1.0-components/spinner",
+      "version-0.1.0-components/table",
+      "version-0.1.0-components/text",
+      "version-0.1.0-components/textarea"
+    ]
+  }
+}
