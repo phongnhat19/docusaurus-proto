@@ -13,9 +13,7 @@ const RemarkablePlugins = require('./core/RemarkablePlugin');
 const users = [
   {
     caption: 'User1',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/kuc_logo.png',
+    image: 'img/kuc_logo.png',
     infoLink: 'https://tomokomiyake.github.io/docusaurus-proto/',
     pinned: true,
   },
@@ -31,10 +29,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'getting-started', label: 'Docs'},
-    {page: 'help', label: 'Help'},
-    {page: 'versions', label: 'Version'},
+    {doc: 'getting-started', label: 'Reference'},
     {blog: true, label: 'Blog'},
+    {page: 'versions', label: 'Version'},
+    {page: 'help', label: 'Help'},
+    {href: 'https://github.com/TomokoMiyake/docusaurus-proto', label: 'GitHub'}, // Need to change to kuc repo
     {search: true},
     {languages: true}
   ],
@@ -100,7 +99,7 @@ const siteConfig = {
   stylesheets: [
     'https://unpkg.com/@kintone/kintone-ui-component@0.3.3/dist/kintone-ui-component.min.css',
     '/docusaurus-proto/css/custom.css'
-  ]
+  ],
 
   // Option for Algolia DocSearch(It can be set at production-ready.)
   // algolia: {
@@ -120,7 +119,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  // repoUrl: 'https://github.com/TomokoMiyake/docusaurus-proto',
 };
 
 module.exports = siteConfig;
