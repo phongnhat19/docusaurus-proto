@@ -1,55 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>kintone UI Component Blog</title>
+        <title>kintone UI Component supports you to create cool kintone app. Blog</title>
         <link>https://tomokomiyake.github.io/docusaurus-proto/blog</link>
-        <description>The best place to stay up-to-date with the latest kintone UI Component news and events.</description>
-        <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
+        <description>The best place to stay up-to-date with the latest kintone UI Component supports you to create cool kintone app. news and events.</description>
+        <lastBuildDate>Tue, 09 Jun 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
-            <title>kintone UI Component Blog</title>
+            <title>kintone UI Component supports you to create cool kintone app. Blog</title>
             <url>https://tomokomiyake.github.io/docusaurus-proto/img/kuc_logo_white.png</url>
             <link>https://tomokomiyake.github.io/docusaurus-proto/blog</link>
         </image>
-        <copyright>Copyright © 2020 Facebook Inc.</copyright>
+        <copyright>Copyright © 2020 Cybozu Inc.</copyright>
         <item>
-            <title><![CDATA[New Version 1.0.0]]></title>
-            <link>https://tomokomiyake.github.io/docusaurus-proto/blog/2017/10/24/new-version-1.0.0.html</link>
-            <guid>https://tomokomiyake.github.io/docusaurus-proto/blog/2017/10/24/new-version-1.0.0.html</guid>
-            <pubDate>Tue, 24 Oct 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>This blog post will test file name parsing issues when periods are present.</p> ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Adding RSS Support]]></title>
-            <link>https://tomokomiyake.github.io/docusaurus-proto/blog/2017/09/26/adding-rss.html</link>
-            <guid>https://tomokomiyake.github.io/docusaurus-proto/blog/2017/09/26/adding-rss.html</guid>
-            <pubDate>Tue, 26 Sep 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>This is a test post.</p> <p>A whole bunch of other information.</p> ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Adding RSS Support - RSS Truncation Test]]></title>
-            <link>https://tomokomiyake.github.io/docusaurus-proto/blog/2017/09/25/testing-rss.html</link>
-            <guid>https://tomokomiyake.github.io/docusaurus-proto/blog/2017/09/25/testing-rss.html</guid>
-            <pubDate>Mon, 25 Sep 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890</p>
-<p>This should be truncated.</p>
+            <title><![CDATA[How to use built-in table column types (advanced)]]></title>
+            <link>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/06/09/customization-tips.html</link>
+            <guid>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/06/09/customization-tips.html</guid>
+            <pubDate>Tue, 09 Jun 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This is the Customization Tips of the kintone UI Component.(≧▽≦)</p>
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[New Blog Post]]></title>
-            <link>https://tomokomiyake.github.io/docusaurus-proto/blog/2017/04/10/blog-post-two.html</link>
-            <guid>https://tomokomiyake.github.io/docusaurus-proto/blog/2017/04/10/blog-post-two.html</guid>
-            <pubDate>Mon, 10 Apr 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
+            <title><![CDATA[How to implement custom table cell (with pure DOM elements)]]></title>
+            <link>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/06/07/customization-tips.html</link>
+            <guid>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/06/07/customization-tips.html</guid>
+            <pubDate>Sun, 07 Jun 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This is the Customization Tips of the kintone UI Component.(≧▽≦)</p>
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[Blog Title]]></title>
-            <link>https://tomokomiyake.github.io/docusaurus-proto/blog/2016/03/11/blog-post.html</link>
-            <guid>https://tomokomiyake.github.io/docusaurus-proto/blog/2016/03/11/blog-post.html</guid>
-            <pubDate>Fri, 11 Mar 2016 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
+            <title><![CDATA[How to implement custom table cell (with pure DOM elements)]]></title>
+            <link>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/06/05/customization-tips.html</link>
+            <guid>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/06/05/customization-tips.html</guid>
+            <pubDate>Fri, 05 Jun 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This is the Customization Tips of the kintone UI Component.(≧▽≦)</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to use built-in table column types]]></title>
+            <link>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/06/03/customization-tips.html</link>
+            <guid>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/06/03/customization-tips.html</guid>
+            <pubDate>Wed, 03 Jun 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This is the Customization Tips of the kintone UI Component.(≧▽≦)</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Features Introduction]]></title>
+            <link>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/05/01/features-introduction.html</link>
+            <guid>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/05/01/features-introduction.html</guid>
+            <pubDate>Fri, 01 May 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This is the introduction of the kintone UI Component features.(｀・∀・´)</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Version 0.1.0]]></title>
+            <link>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/04/29/new-version-0.1.0.html</link>
+            <guid>https://tomokomiyake.github.io/docusaurus-proto/blog/2020/04/29/new-version-0.1.0.html</guid>
+            <pubDate>Wed, 29 Apr 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This is the blog post of the new release of kintone UI Component!</p>
 ]]></description>
         </item>
     </channel>

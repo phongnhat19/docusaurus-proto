@@ -1,0 +1,510 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>ReadableTable · kintone UI Component supports you to create cool kintone app.</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Overview"/><meta name="docsearch:version" content="next"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="ReadableTable · kintone UI Component supports you to create cool kintone app."/><meta property="og:type" content="website"/><meta property="og:url" content="https://tomokomiyake.github.io/docusaurus-proto/"/><meta property="og:description" content="## Overview"/><meta property="og:image" content="https://tomokomiyake.github.io/docusaurus-proto/img/kuc_logo.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://tomokomiyake.github.io/docusaurus-proto/img/kuc_logo.png"/><link rel="shortcut icon" href="/docusaurus-proto/img/kuc_box_yellow.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><link rel="alternate" type="application/atom+xml" href="https://tomokomiyake.github.io/docusaurus-proto/blog/atom.xml" title="kintone UI Component supports you to create cool kintone app. Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://tomokomiyake.github.io/docusaurus-proto/blog/feed.xml" title="kintone UI Component supports you to create cool kintone app. Blog RSS Feed"/><link rel="stylesheet" href="https://unpkg.com/@kintone/kintone-ui-component@0.3.3/dist/kintone-ui-component.min.css"/><link rel="stylesheet" href="/docusaurus-proto/css/custom.css"/><link rel="stylesheet" href="/docusaurus-proto/css/code-block-button.css"/><script type="text/javascript" src="https://unpkg.com/@kintone/kintone-ui-component@0.3.3/dist/kintone-ui-component.min.js"></script><script type="text/javascript" src="/docusaurus-proto/js/extra.js"></script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/docusaurus-proto/js/code-block-button.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/docusaurus-proto/js/scrollSpy.js"></script><link rel="stylesheet" href="/docusaurus-proto/css/main.css"/><script src="/docusaurus-proto/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docusaurus-proto/en"><img class="logo" src="/docusaurus-proto/img/kuc_logo_white.png" alt="kintone UI Component supports you to create cool kintone app."/></a><a href="/docusaurus-proto/en/versions"><h3>next</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docusaurus-proto/docs/en/next/overview/navigation" target="_self">Documentation</a></li><li class=""><a href="/docusaurus-proto/blog/" target="_self">Blog/Tips</a></li><li class=""><a href="/docusaurus-proto/en/help" target="_self">Help</a></li><li class=""><a href="https://github.com/TomokoMiyake/docusaurus-proto" target="_self">GitHub</a></li><li class=""><a target="_self"></a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/docusaurus-proto/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/docusaurus-proto/docs/ja/next/components/readable-table">日本語</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Components</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Overview</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/overview/navigation">Navigation</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/getting-started/quick-start">Quick Start</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Components</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/attachment">Attachment</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/button">Button</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/checkbox">Checkbox</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/date-time">DateTime</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/dialog">Dialog</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/dropdown">Dropdown</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/editable-table">EditableTable</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/icon-button">IconButton</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/multiple-choice">MultipleChoice</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/notify-popup">NotifyPopup</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/radio-button">RadioButton</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/readable-table">ReadableTable</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/spinner">Spinner</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/text">Text</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-proto/docs/en/next/components/text-area">TextArea</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">ReadableTable</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="overview"></a><a href="#overview" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
+<h2><a class="anchor" aria-hidden="true" id="constructor"></a><a href="#constructor" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Constructor</h2>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>options</td><td>Object</td><td>Yes</td><td>The object contains the params of constructor.</td></tr>
+<tr><td>options.actionButtonsShown</td><td>Boolean</td><td>No</td><td>Show the action buttons when this parameter is True. <br>Default: True</td></tr>
+<tr><td>options.columns</td><td>Array&lt;Object&gt;</td><td>Yes</td><td>The row template.</td></tr>
+<tr><td>options.columns[x].cell</td><td>Function</td><td>Yes</td><td>Returns cell template object. Cell template object must implement init and update functions <br> - init: to return DOM element for initializing cell's DOM <br> - update: to update DOM of the cell based on the data returned</td></tr>
+<tr><td>options.columns[x].header</td><td>String</td><td>Yes</td><td>Header of column.</td></tr>
+<tr><td>options.data</td><td>Array&lt;Object&gt;</td><td>Yes</td><td>The value of table. <br> Refer to the <a href="#getvalue">getValue()</a> and <a href="#setvaluevalue">setValue(value)</a> for more information</td></tr>
+<tr><td>options.defaultRowData</td><td>Object</td><td>Yes</td><td>The default value of new row.</td></tr>
+<tr><td>options.onCellChange</td><td>Callback</td><td>No</td><td>Handler for cell change event. <br>Return row data object to overwrite default row data object.</td></tr>
+<tr><td>options.onRowAdd</td><td>Callback</td><td>No</td><td>Handler for row add event</td></tr>
+<tr><td>options.onRowRemove</td><td>Callback</td><td>No</td><td>Handler for row remove event</td></tr>
+</tbody>
+</table>
+<p><details class="tab-container" open>
+<Summary>View source</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs">(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-comment">// custom cell containing 2 text fields</span>
+  <span class="hljs-keyword">var</span> customCell = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> {
+      <span class="hljs-attr">init</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">{rowData, updateRowData}</span>) </span>{
+        <span class="hljs-keyword">var</span> span = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'span'</span>);
+        <span class="hljs-keyword">var</span> textfield1 = <span class="hljs-keyword">new</span> kintoneUIComponent.Text({<span class="hljs-attr">value</span>: rowData.text1.value});
+        <span class="hljs-keyword">var</span> textfield2 = <span class="hljs-keyword">new</span> kintoneUIComponent.Text({<span class="hljs-attr">value</span>: rowData.text2.value});
+        span.appendChild(textfield1.render());
+        span.appendChild(textfield2.render());
+        textfield1.on(<span class="hljs-string">'change'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">newValue</span>)</span>{
+          updateRowData({<span class="hljs-attr">text1</span>: {<span class="hljs-attr">value</span>: newValue}}, <span class="hljs-literal">false</span>);
+        });
+        textfield2.on(<span class="hljs-string">'change'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">newValue</span>)</span>{
+          updateRowData({<span class="hljs-attr">text2</span>: {<span class="hljs-attr">value</span>: newValue}}, <span class="hljs-literal">false</span>);
+        });
+        <span class="hljs-keyword">this</span>.textfield1 = textfield1;
+        <span class="hljs-keyword">this</span>.textfield2 = textfield2;
+        <span class="hljs-keyword">return</span> span;
+      },
+      <span class="hljs-attr">update</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">{ rowData }</span>) </span>{
+        <span class="hljs-keyword">var</span> text1val = rowData.text1;
+        <span class="hljs-keyword">var</span> text2val = rowData.text2;
+        <span class="hljs-keyword">if</span> (text1val &amp;&amp; <span class="hljs-keyword">this</span>.textfield1._reactObject) {
+          <span class="hljs-keyword">this</span>.textfield1.setValue(text1val.value);
+        }
+        <span class="hljs-keyword">if</span> (text2val &amp;&amp; <span class="hljs-keyword">this</span>.textfield2._reactObject) {
+          <span class="hljs-keyword">this</span>.textfield2.setValue(text2val.value);
+        }
+      }
+    }
+  };
+
+  <span class="hljs-comment">// initial data of a table</span>
+  <span class="hljs-keyword">var</span> initialData = [
+    {
+      <span class="hljs-attr">text</span>: { <span class="hljs-attr">value</span>: <span class="hljs-string">'text field'</span> },
+      <span class="hljs-attr">text1</span>: { <span class="hljs-attr">value</span>: <span class="hljs-string">'text field 1'</span> },
+      <span class="hljs-attr">text2</span>: { <span class="hljs-attr">value</span>: <span class="hljs-string">'text field 2'</span> },
+      <span class="hljs-comment">// initial data of radio buttons</span>
+      <span class="hljs-attr">fruit</span>: {
+        <span class="hljs-attr">name</span>: <span class="hljs-string">'fruit'</span>,
+        <span class="hljs-attr">items</span>: [
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+             },
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+             },
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+             },
+         ],
+        <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+      },
+      <span class="hljs-comment">// initial data of multiple choices</span>
+      <span class="hljs-attr">colors</span>: {
+        <span class="hljs-attr">items</span>: [
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Red'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'red'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+             },
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Green'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'green'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+             },
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Blue'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'blue'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+             },
+         ],
+        <span class="hljs-attr">value</span>: [<span class="hljs-string">'red'</span>]
+      },
+      <span class="hljs-comment">// initial data of checkbox</span>
+      <span class="hljs-attr">vegetables</span>: {
+        <span class="hljs-attr">items</span>: [
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Potato'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'potato'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+             },
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Celery'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'celery'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+             },
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Carrot'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'carrot'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+             },
+         ],
+        <span class="hljs-attr">value</span>: [<span class="hljs-string">'potato'</span>, <span class="hljs-string">'celery'</span>]
+      },
+      <span class="hljs-comment">// initial data of dropdown</span>
+      <span class="hljs-attr">toys</span>: {
+        <span class="hljs-attr">items</span>: [
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Cars'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'cars'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+             },
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Robots'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'robots'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+             },
+             {
+                 <span class="hljs-attr">label</span>: <span class="hljs-string">'Animals'</span>,
+                 <span class="hljs-attr">value</span>: <span class="hljs-string">'animals'</span>,
+                 <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+             },
+         ],
+        <span class="hljs-attr">value</span>: <span class="hljs-string">'cars'</span>
+      },
+      <span class="hljs-attr">label</span>: {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">'Name'</span>,
+        <span class="hljs-attr">textColor</span>: <span class="hljs-string">'#e74c3c'</span>,
+        <span class="hljs-attr">backgroundColor</span>: <span class="hljs-string">'yellow'</span>,
+        <span class="hljs-attr">isRequired</span>: <span class="hljs-literal">true</span>
+      },
+      <span class="hljs-attr">iconBtn</span>: {
+        <span class="hljs-attr">type</span>: <span class="hljs-string">'insert'</span>,
+        <span class="hljs-attr">color</span>:<span class="hljs-string">'blue'</span>,
+        <span class="hljs-attr">size</span>: <span class="hljs-string">'small'</span>
+      },
+      <span class="hljs-attr">alert</span>: {
+        <span class="hljs-attr">text</span>: <span class="hljs-string">'Network error'</span>,
+        <span class="hljs-attr">type</span>: <span class="hljs-string">'error'</span>
+      }
+    },
+  ];
+
+  <span class="hljs-comment">// default row data of a table, this data will be used to create new row</span>
+  <span class="hljs-keyword">var</span> defaultRowData = {
+    <span class="hljs-attr">text</span>: { <span class="hljs-attr">value</span>: <span class="hljs-string">'text field'</span> },
+    <span class="hljs-attr">text1</span>: { <span class="hljs-attr">value</span>: <span class="hljs-string">'text field 1'</span> },
+    <span class="hljs-attr">text2</span>: { <span class="hljs-attr">value</span>: <span class="hljs-string">'text field 2'</span> },
+    <span class="hljs-comment">// default data of radio buttons</span>
+    <span class="hljs-attr">fruit</span>: {
+      <span class="hljs-attr">name</span>: <span class="hljs-string">'fruit'</span>,
+      <span class="hljs-attr">items</span>: [
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+       ],
+      <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+    },
+    <span class="hljs-comment">// default data of multiple choices</span>
+    <span class="hljs-attr">colors</span>: {
+      <span class="hljs-attr">items</span>: [
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Red'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'red'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Green'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'green'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Blue'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'blue'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+       ],
+      <span class="hljs-attr">value</span>: [<span class="hljs-string">'red'</span>]
+    },
+    <span class="hljs-comment">// default data of checkbox</span>
+    <span class="hljs-attr">vegetables</span>: {
+      <span class="hljs-attr">items</span>: [
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Potato'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'potato'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Celery'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'celery'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Carrot'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'carrot'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+       ],
+      <span class="hljs-attr">value</span>: [<span class="hljs-string">'potato'</span>, <span class="hljs-string">'celery'</span>]
+    },
+    <span class="hljs-comment">// default data of dropdown</span>
+    <span class="hljs-attr">toys</span>: {
+      <span class="hljs-attr">items</span>: [
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Cars'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'cars'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Robots'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'robots'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Animals'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'animals'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+       ],
+      <span class="hljs-attr">value</span>: <span class="hljs-string">'cars'</span>
+    },
+    <span class="hljs-attr">label</span>: {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">'Name'</span>,
+      <span class="hljs-attr">textColor</span>: <span class="hljs-string">'#e74c3c'</span>,
+      <span class="hljs-attr">backgroundColor</span>: <span class="hljs-string">'yellow'</span>,
+      <span class="hljs-attr">isRequired</span>: <span class="hljs-literal">true</span>
+    },
+    <span class="hljs-attr">iconBtn</span>: {
+      <span class="hljs-attr">type</span>: <span class="hljs-string">'insert'</span>,
+      <span class="hljs-attr">color</span>:<span class="hljs-string">'blue'</span>,
+      <span class="hljs-attr">size</span>: <span class="hljs-string">'small'</span>
+    },
+    <span class="hljs-attr">alert</span>: {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">'Network error'</span>,
+      <span class="hljs-attr">type</span>: <span class="hljs-string">'error'</span>
+    }
+  };
+
+  <span class="hljs-comment">// return this data to override default row data onRowAdd</span>
+  <span class="hljs-keyword">var</span> overriddenRowData = {
+    <span class="hljs-attr">text</span>: {<span class="hljs-attr">value</span>: <span class="hljs-string">'overwritten field value'</span>},
+    <span class="hljs-attr">text1</span>: { <span class="hljs-attr">value</span>: <span class="hljs-string">'overwritten field1 value'</span> },
+    <span class="hljs-attr">text2</span>: { <span class="hljs-attr">value</span>: <span class="hljs-string">'overwritten field2 value'</span> },
+    <span class="hljs-comment">// overriden data of radio buttons</span>
+    <span class="hljs-attr">fruit</span>: {
+      <span class="hljs-attr">name</span>: <span class="hljs-string">'fruit'</span>,
+      <span class="hljs-attr">items</span>: [
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+       ],
+      <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+    },
+    <span class="hljs-comment">// overriden data of multiple choices</span>
+    <span class="hljs-attr">colors</span>: {
+      <span class="hljs-attr">items</span>: [
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Red'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'red'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Green'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'green'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Blue'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'blue'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+       ],
+      <span class="hljs-attr">value</span>: [<span class="hljs-string">'red'</span>]
+    },
+    <span class="hljs-comment">// overriden data of checkbox</span>
+    <span class="hljs-attr">vegetables</span>: {
+      <span class="hljs-attr">items</span>: [
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Potato'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'potato'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Celery'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'celery'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Carrot'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'carrot'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+       ],
+      <span class="hljs-attr">value</span>: [<span class="hljs-string">'potato'</span>, <span class="hljs-string">'celery'</span>]
+    },
+    <span class="hljs-comment">// overriden data of dropdown</span>
+    <span class="hljs-attr">toys</span>: {
+      <span class="hljs-attr">items</span>: [
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Cars'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'cars'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Robots'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'robots'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+           },
+           {
+               <span class="hljs-attr">label</span>: <span class="hljs-string">'Animals'</span>,
+               <span class="hljs-attr">value</span>: <span class="hljs-string">'animals'</span>,
+               <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+           },
+       ],
+      <span class="hljs-attr">value</span>: <span class="hljs-string">'cars'</span>
+    },
+    <span class="hljs-attr">label</span>: {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">'Name'</span>,
+      <span class="hljs-attr">textColor</span>: <span class="hljs-string">'#e74c3c'</span>,
+      <span class="hljs-attr">backgroundColor</span>: <span class="hljs-string">'yellow'</span>,
+      <span class="hljs-attr">isRequired</span>: <span class="hljs-literal">true</span>
+    },
+    <span class="hljs-attr">iconBtn</span>: {
+      <span class="hljs-attr">type</span>: <span class="hljs-string">'insert'</span>,
+      <span class="hljs-attr">color</span>:<span class="hljs-string">'blue'</span>,
+      <span class="hljs-attr">size</span>: <span class="hljs-string">'small'</span>
+    },
+    <span class="hljs-attr">alert</span>: {
+      <span class="hljs-attr">text</span>: <span class="hljs-string">'Network error'</span>,
+      <span class="hljs-attr">type</span>: <span class="hljs-string">'error'</span>
+    }
+  };
+
+  <span class="hljs-keyword">var</span> table = <span class="hljs-keyword">new</span> kintoneUIComponent.Table({
+    <span class="hljs-comment">// initial table data</span>
+    <span class="hljs-attr">data</span>: initialData,
+    <span class="hljs-comment">// default row data on row add</span>
+    <span class="hljs-attr">defaultRowData</span>: defaultRowData,
+    <span class="hljs-attr">onRowAdd</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) </span>{
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'table.onAdd'</span>, e);
+      <span class="hljs-comment">// if onRowAdd does not return anything, defaultRowData will be used to create new table row</span>
+      <span class="hljs-comment">// if below row data is returned, it will override defaultRowData to be used to create new table row</span>
+      <span class="hljs-keyword">return</span> <span class="hljs-built_in">JSON</span>.parse(<span class="hljs-built_in">JSON</span>.stringify(overriddenRowData));
+    },
+    <span class="hljs-attr">columns</span>: [
+      {
+        <span class="hljs-attr">header</span>: <span class="hljs-string">'Text'</span>,
+        <span class="hljs-attr">cell</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{ <span class="hljs-keyword">return</span> kintoneUIComponent.createTableCell(<span class="hljs-string">'text'</span>, <span class="hljs-string">'text'</span>) }
+      },
+      {
+        <span class="hljs-attr">header</span>: <span class="hljs-string">'Radio'</span>,
+        <span class="hljs-attr">cell</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{ <span class="hljs-keyword">return</span> kintoneUIComponent.createTableCell(<span class="hljs-string">'radio'</span>, <span class="hljs-string">'fruit'</span>) }
+      },
+      {
+        <span class="hljs-attr">header</span>: <span class="hljs-string">'Multichoice'</span>,
+        <span class="hljs-attr">cell</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{ <span class="hljs-keyword">return</span> kintoneUIComponent.createTableCell(<span class="hljs-string">'multichoice'</span>, <span class="hljs-string">'colors'</span>) }
+      },
+      {
+        <span class="hljs-attr">header</span>: <span class="hljs-string">'Checkbox'</span>,
+        <span class="hljs-attr">cell</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{ <span class="hljs-keyword">return</span> kintoneUIComponent.createTableCell(<span class="hljs-string">'checkbox'</span>, <span class="hljs-string">'vegetables'</span>) }
+      },
+      {
+        <span class="hljs-attr">header</span>: <span class="hljs-string">'Dropdown'</span>,
+        <span class="hljs-attr">cell</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{ <span class="hljs-keyword">return</span> kintoneUIComponent.createTableCell(<span class="hljs-string">'dropdown'</span>, <span class="hljs-string">'toys'</span>) }
+      },
+      {
+        <span class="hljs-attr">header</span>: <span class="hljs-string">'Label'</span>,
+        <span class="hljs-attr">cell</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{ <span class="hljs-keyword">return</span> kintoneUIComponent.createTableCell(<span class="hljs-string">'label'</span>, <span class="hljs-string">'label'</span>) }
+      },
+      {
+        <span class="hljs-attr">header</span>: <span class="hljs-string">'Icon Button'</span>,
+        <span class="hljs-attr">cell</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{ <span class="hljs-keyword">return</span> kintoneUIComponent.createTableCell(<span class="hljs-string">'icon'</span>, <span class="hljs-string">'iconBtn'</span>, {<span class="hljs-attr">onClick</span>:<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>)</span>{
+          alert(<span class="hljs-string">'icon button clicked'</span>)
+        }}) }
+      },
+      {
+        <span class="hljs-attr">header</span>: <span class="hljs-string">'Alert'</span>,
+        <span class="hljs-attr">cell</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{ <span class="hljs-keyword">return</span> kintoneUIComponent.createTableCell(<span class="hljs-string">'alert'</span>, <span class="hljs-string">'alert'</span>) }
+      },
+      {
+        <span class="hljs-attr">header</span>: <span class="hljs-string">'Custom cell contains 2 textfields'</span>,
+        <span class="hljs-attr">cell</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{ <span class="hljs-keyword">return</span> customCell() }
+      },
+    ]
+  });
+  kintone.app.getHeaderSpaceElement().appendChild(table.render());
+})();
+</code></pre>
+<p></details></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docusaurus-proto/docs/en/next/components/radio-button"><span class="arrow-prev">← </span><span class="function-name-prevnext">RadioButton</span></a><a class="docs-next button" href="/docusaurus-proto/docs/en/next/components/spinner"><span>Spinner</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#overview">Overview</a></li><li><a href="#constructor">Constructor</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/docusaurus-proto/" class="nav-home"><img src="/docusaurus-proto/img/kuc_box_white.png" alt="kintone UI Component supports you to create cool kintone app." width="66" height="58"/></a><div><h5>Documentation</h5><a href="/docusaurus-proto/docs/en/overview/navigation.html">Overview</a><a href="/docusaurus-proto/docs/en/getting-started/quick-start.html">Quick Start</a><a href="/docusaurus-proto/docs/en/components/attachment.html">Components</a></div><div><h5>Community</h5><a href="https://developer.cybozu.io/hc/ja/community/topics" target="_blank" rel="noreferrer noopener">cybozu developer network community topic</a><a href="https://github.com/kintone/kintone-ui-component/issues" target="_blank" rel="noreferrer noopener">GitHub issue</a></div></section><a href="https://opensource.facebook.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/docusaurus-proto/img/cybozu_blue.png" alt="Cybozu OSS" width="170" height="45"/></a><section class="copyright">Copyright © 2020 Cybozu Inc.</section></footer></div></body></html>
