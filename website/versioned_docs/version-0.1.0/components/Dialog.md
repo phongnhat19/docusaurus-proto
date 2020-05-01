@@ -5,6 +5,8 @@ sidebar_label: Dialog
 original_id: dialog
 ---
 
+## Overview
+
 ## Constructor
 
 **Parameter**
@@ -30,31 +32,5 @@ var myDialog = new kintoneUIComponent.Dialog({
     isVisible: true,
     showCloseButton: true
 });
-```
-**React**
-```jsx
-import {Dialog} from '@kintone/kintone-ui-component';
-import React from 'react';
-  
-export default class Plugin extends React.Component {
-    state = {isVisible: true}
-     
-    onClose = () => {
-        this.setState({isVisible: false})
-    }
- 
-    render() {
-        return (
-            <Dialog
-                showCloseButton={true}
-                header="Dialog header"
-                content="This is content"
-                footer="Footer"
-                isVisible={this.state.isVisible}
-                onClose={this.onClose}
-            />
-        );
-    }
-}
 ```
 </details>

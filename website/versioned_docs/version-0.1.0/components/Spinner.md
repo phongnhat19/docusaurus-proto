@@ -5,6 +5,8 @@ sidebar_label: Spinner
 original_id: spinner
 ---
 
+## Overview
+
 ## Constructor
 
 **Parameter**
@@ -17,19 +19,5 @@ None
 **Javascript**
 ```
 var spinner = new kintoneUIComponent.Spinner();
-```
-**React**
-```
-import { Spinner } from '@kintone/kintone-ui-component';
-import React from 'react';
-   
-export default class Plugin extends React.Component {
-    render() {
-        return (
-            <Spinner isVisible={true}/>
-        );
-    }
-}
-
 ```
 </details>

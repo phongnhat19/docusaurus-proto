@@ -4,6 +4,8 @@ title: Dropdown
 sidebar_label: Dropdown
 ---
 
+## Overview
+
 ## Constructor
 
 **Parameter**
@@ -40,40 +42,5 @@ var dropdown = new kintoneUIComponent.Dropdown({
     ],
     value: 'Banana'
 });
-```
-**React**
-```jsx
-import { Dropdown } from '@kintone/kintone-ui-component';
-import React from 'react';
-    
-export default class Plugin extends React.Component {
-    constructor(opts) {
-        super(opts);
-        var items = [
-            {
-                label: 'Orange',
-                value: 'Orange',
-                isDisabled: false
-            },
-            {
-                label: 'Banana',
-                value: 'Banana',
-                isDisabled: true
-            },
-            {
-                label: 'Lemon',
-                value: 'Lemon',
-                isDisabled: true
-            },
-        ];
-        this.state = {items: items, value: 'Orange'};
-    }
-
-    render() {
-        return (
-            <Dropdown items={this.state.items} value={this.state.value} onChange={(value) => {this.setState({value})}} />
-        );
-    }
-}
 ```
 </details>

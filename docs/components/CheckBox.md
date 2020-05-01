@@ -1,8 +1,10 @@
 ---
 id: checkbox
-title: CheckBox
-sidebar_label: CheckBox
+title: Checkbox
+sidebar_label: Checkbox
 ---
+
+## Overview
 
 ## Constructor
 
@@ -44,41 +46,5 @@ var checkbox = new kintoneUIComponent.CheckBox ({
      ],
      value: ['Orange', 'Banana']
 });
-```
-
-**React**
-```jsx
-import { CheckBox } from '@kintone/kintone-ui-component';
-import React from 'react';
-
-export default class Plugin extends React.Component {
-    constructor(opts) {
-        super(opts);
-        var items = [
-            {
-                label: 'Orange',
-                value: 'Orange',
-                isDisabled: false
-            },
-            {
-                label: 'Banana',
-                value: 'Banana',
-                isDisabled: true
-            },
-            {
-                label: 'Lemon',
-                value: 'Lemon',
-                isDisabled: true
-            },
-        ];
-        this.state = {items: items, value: ['Orange']};
-    }
-
-    render() {
-        return (
-            <CheckBox items={this.state.items} value={this.state.value} onChange={(value) => {this.setState({value})}} />
-        );
-    }
-}
 ```
 </details>

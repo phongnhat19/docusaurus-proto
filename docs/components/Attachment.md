@@ -4,6 +4,8 @@ title: Attachment
 sidebar_label: Attachment
 ---
 
+## Overview
+
 ## Constructor
 **Parameter**
 
@@ -29,36 +31,6 @@ const attachment = new kintoneUIComponent.Attachment({
   files: [{name: 'test_1', size: 12345}]
 });
 ```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
- 
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  render() {
-    return (
-      <Attachment 
-        files={this.state.files} 
-        onFilesAdd={this.handleFilesAdd} 
-        onFileRemove={this.handleFileRemove} 
-      />
-    );
-  }
-}
-```
 </details>
 
 ## Methods
@@ -81,30 +53,6 @@ Dom element
 const attachment = new kintoneUIComponent.Attachment({files: [{name: 'test_1', size: 12345}]});
 const body = document.getElementsByTagName('BODY')[0];
 body.appendChild(attachment.render());
-```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
- 
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  render() {
-    return (<Attachment files={this.state.files} onFilesAdd={this.handleFilesAdd} onFileRemove={this.handleFileRemove} />);
-  }
-}
 ```
 </details>
 
@@ -145,39 +93,6 @@ button.on('click', () => {
   attachment.setFiles([{name: 'I_was_set_manually', size: 12345}]);
 });
 ```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
- 
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  handleClick = () => {
-    this.setState({files: [{name: 'I_was_set_manually', size: 12345}]});
-  };
- 
-  render() {
-    return (
-      <div>
-        <Attachment files={this.state.files} onFilesAdd={this.handleFilesAdd} onFileRemove={this.handleFileRemove} />
-        <button onClick={this.handleClick}>Set Files</button>
-      </div>
-    );
-  }
-}
-```
 </details>
 
 ```KUCComponentRenderer {"id":"attachment_set_files"}
@@ -212,39 +127,6 @@ body.appendChild(button.render());
 button.on('click', () => {
     console.log('files:', attachment.getFiles());
 });
-```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
- 
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  handleClick = () => {
-    console.log('files:', this.state.files);
-  };
- 
-  render() {
-    return (
-      <div>
-        <Attachment files={this.state.files} onFilesAdd={this.handleFilesAdd} onFileRemove={this.handleFileRemove} />
-        <button onClick={this.handleClick}>Get Files</button>
-      </div>
-    );
-  }
-}
 ```
 </details>
 
@@ -286,37 +168,6 @@ const attachment = new kintoneUIComponent.Attachment();
 body.appendChild(attachment.render());
 attachment.setDropZoneText('Drop files here.');
 ```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
- 
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  render() {
-    return (
-      <Attachment
-        files={this.state.files}
-        dropZoneText="Drop files here."
-        onFilesAdd={this.handleFilesAdd}
-        onFileRemove={this.handleFileRemove}
-      />
-    );
-  }
-}
-```
 </details>
 
 ```KUCComponentRenderer {"id":"attachment_set_dropzone_text"}
@@ -346,37 +197,6 @@ const body = document.getElementsByTagName("BODY")[0];
 const attachment = new kintoneUIComponent.Attachment();
 body.appendChild(attachment.render());
 attachment.setBrowseButtonText('Choose file');
-```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
- 
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  render() {
-    return (
-      <Attachment
-        files={this.state.files}
-        browseButtonText="Choose file"
-        onFilesAdd={this.handleFilesAdd}
-        onFileRemove={this.handleFileRemove}
-      />
-    );
-  }
-}
 ```
 </details>
 
@@ -408,37 +228,6 @@ const attachment = new kintoneUIComponent.Attachment();
 body.appendChild(attachment.render());
 attachment.setFileLimitText('Maximum: 1 GB');
 ```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
- 
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  render() {
-    return (
-      <Attachment
-        files={this.state.files}
-        fileLimitText="Maximum: 1 GB"
-        onFilesAdd={this.handleFilesAdd}
-        onFileRemove={this.handleFileRemove}
-      />
-    );
-  }
-}
-```
 </details>
 
 ```KUCComponentRenderer {"id":"attachment_set_file_limit_text"}
@@ -468,37 +257,6 @@ const body = document.getElementsByTagName("BODY")[0];
 const attachment = new kintoneUIComponent.Attachment();
 body.appendChild(attachment.render());
 attachment.setErrorMessage('Error message');
-```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
- 
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  render() {
-    return (
-      <Attachment
-        files={this.state.files}
-        errorMessage="Error message"
-        onFilesAdd={this.handleFilesAdd}
-        onFileRemove={this.handleFileRemove}
-      />
-    );
-  }
-}
 ```
 </details>
 
@@ -534,38 +292,6 @@ body.appendChild(showButton.render());
 showButton.on('click', () => {
     attachment.showError();
 });
-```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
- 
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  render() {
-    return (
-      <Attachment
-        files={this.state.files}
-        errorMessage="Error message"
-        isErrorVisible={true}
-        onFilesAdd={this.handleFilesAdd}
-        onFileRemove={this.handleFileRemove}
-      />
-    );
-  }
-}
 ```
 </details>
 
@@ -607,37 +333,6 @@ body.appendChild(hideButton.render());
 hideButton.on('click', () => {
     attachment.hideError();
 });
-```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  render() {
-    return (
-      <Attachment
-        files={this.state.files}
-        errorMessage="Error message"
-        isErrorVisible={false}
-        onFilesAdd={this.handleFilesAdd}
-        onFileRemove={this.handleFileRemove}
-      />
-    );
-  }
-}
 ```
 </details>
 
@@ -684,38 +379,6 @@ attachment.on('fileRemove', (files) => {
     console.log('files:', files);
 });
 ```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
- 
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-    console.log('files:', files);
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-    console.log('files:', files);
-  };
- 
-  render() {
-    return (
-      <Attachment
-        files={this.state.files}
-        onFilesAdd={this.handleFilesAdd}
-        onFileRemove={this.handleFileRemove}
-      />
-    );
-  }
-}
-```
 </details>
 
 ```KUCComponentRenderer {"id":"attachment_on"}
@@ -750,36 +413,6 @@ const attachment = new kintoneUIComponent.Attachment({files: [{name: 'test_1', s
 const body = document.getElementsByTagName('BODY')[0];
 body.appendChild(attachment.render());
 attachment.show();
-```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  render() {
-    return (
-      <Attachment
-        files={this.state.files}
-        isVisible={true}
-        onFilesAdd={this.handleFilesAdd}
-        onFileRemove={this.handleFileRemove}
-      />
-    );
-  }
-}
 ```
 </details>
 
@@ -820,36 +453,6 @@ const attachment = new kintoneUIComponent.Attachment({files: [{name: 'test_1', s
 const body = document.getElementsByTagName('BODY')[0];
 body.appendChild(attachment.render());
 attachment.hide();
-```
-
-**React**
-```jsx
-import {Attachment} from '@kintone/kintone-ui-component';
-import React from 'react';
-export default class Plugin extends React.Component {
-  state = {
-    files: [],
-  };
- 
-  handleFilesAdd = (files) => {
-    this.setState({files});
-  };
- 
-  handleFileRemove = (files) => {
-    this.setState({files});
-  };
- 
-  render() {
-    return (
-      <Attachment
-        files={this.state.files}
-        isVisible={false}
-        onFilesAdd={this.handleFilesAdd}
-        onFileRemove={this.handleFileRemove}
-      />
-    );
-  }
-}
 ```
 </details>
 

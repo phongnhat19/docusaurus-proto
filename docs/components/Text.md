@@ -4,6 +4,8 @@ title: Text
 sidebar_label: Text
 ---
 
+## Overview
+
 ## Constructor
 
 **Parameter**
@@ -21,20 +23,5 @@ sidebar_label: Text
 **Javascript**
 ```
 var text= new kintoneUIComponent.Text({value: '12345'});
-```
-**React**
-```
-import {Text} from '@kintone/kintone-ui-component';
-import React from 'react';
- 
-export default class Plugin extends React.Component {
-    state = { value: ''}
-    render() {
-        return (
-            <Text value={this.state.value} onChange={(value) => {this.setState({value})}} />
-        );
-    }
-}
-
 ```
 </details>

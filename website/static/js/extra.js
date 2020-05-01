@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     sandboxLink.className = 'sandbox-button'
                     element.appendChild(sandboxLink)
                     element.style.position = 'relative'
-                } 
+                }
             });
         }
     }

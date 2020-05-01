@@ -1,20 +1,23 @@
 {
   "docs": {
-    "Developer Guide": ["getting-started"],
-    "API Reference": [
+    "Overview": ["overview/navigation"],
+    "Getting Started": ["getting-started/quick-start"],
+    "Components": [
       "components/attachment",
       "components/button",
       "components/checkbox",
-      "components/datetime",
+      "components/date-time",
       "components/dialog",
       "components/dropdown",
-      "components/multiplechoice",
-      "components/notifypopup",
-      "components/radiobutton",
+      "components/editable-table",
+      "components/icon-button",
+      "components/multiple-choice",
+      "components/notify-popup",
+      "components/radio-button",
+      "components/readable-table",
       "components/spinner",
-      "components/table",
       "components/text",
-      "components/textarea"
+      "components/text-area"
     ]
   }
 }
