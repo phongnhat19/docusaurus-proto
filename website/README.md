@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1262b0bd-7bc6-4b14-b5fb-7d6d4d8533a3/deploy-status)](https://app.netlify.com/sites/docusaurus-proto/deploys)
+
 This website was created with [Docusaurus](https://docusaurus.io/).
 
 # What's In This Document
