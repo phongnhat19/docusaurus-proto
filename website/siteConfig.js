@@ -12,8 +12,10 @@ const siteConfig = {
   tagline: '',
   // url: 'https://tomokomiyake.github.io',
   // baseUrl: '/docusaurus-proto/',
-  // projectName: 'docusaurus-proto',
-  // organizationName: 'tomokomiyake',
+  url: 'https://tomokomiyake.netlify.app',
+  baseUrl: '/',
+  projectName: 'docusaurus-proto',
+  organizationName: 'tomokomiyake',
   headerLinks: [
     {doc: 'overview/navigation', label: 'Documentation'},
     {blog: true, label: 'Blog/Tips'},
