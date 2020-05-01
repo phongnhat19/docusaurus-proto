@@ -10,10 +10,10 @@ const RemarkablePlugins = require('./core/RemarkablePlugin');
 const siteConfig = {
   title: 'kintone UI Component supports you to create cool kintone app.', // Title for your website.
   tagline: '',
-  url: 'https://tomokomiyake.github.io',
-  baseUrl: '/docusaurus-proto/',
-  projectName: 'docusaurus-proto',
-  organizationName: 'tomokomiyake',
+  // url: 'https://tomokomiyake.github.io',
+  // baseUrl: '/docusaurus-proto/',
+  // projectName: 'docusaurus-proto',
+  // organizationName: 'tomokomiyake',
   headerLinks: [
     {doc: 'overview/navigation', label: 'Documentation'},
     {blog: true, label: 'Blog/Tips'},
