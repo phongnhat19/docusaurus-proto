@@ -38,7 +38,7 @@ function Versions(props) {
                   <a
                     href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${
                       props.language ? props.language + '/' : ''
-                    }other/reference-navigation`}>
+                    }overview/navigation`}>
                     Documentation
                   </a>
                 </td>
@@ -63,7 +63,7 @@ function Versions(props) {
                   <a
                     href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${
                       props.language ? props.language + '/' : ''
-                    }next/other/reference-navigation`}>
+                    }next/overview/navigation`}>
                     Documentation
                   </a>
                 </td>
@@ -89,7 +89,7 @@ function Versions(props) {
                         <a
                           href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${
                             props.language ? props.language + '/' : ''
-                          }${version}/other/reference-navigation`}>
+                          }${version}/overview/navigation`}>
                           Documentation
                         </a>
                       </td>
