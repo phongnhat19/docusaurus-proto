@@ -13,9 +13,10 @@ const siteConfig = {
   // For GitHub Pages hosting
   // url: 'https://tomokomiyake.github.io',
   // baseUrl: '/docusaurus-proto/',
+
   // For Netlify hosting
   url: 'https://tomokomiyake.netlify.app',
-  baseUrl: '/',
+  // baseUrl: '/',
   projectName: 'docusaurus-proto',
   organizationName: 'tomokomiyake',
   headerLinks: [
