@@ -11,7 +11,7 @@ This is the Documentation page navigation.
 
 ## Components
 - [Attachment](../components/attachment.md)
-- [Button](../components/button.md)
+- [Button](components/button.md)
 - [Checkbox](../components/checkbox.md)
 - [DateTime](../components/date-time.md)
 - [Dialog](../components/dialog.md)
