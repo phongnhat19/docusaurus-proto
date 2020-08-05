@@ -16,7 +16,7 @@ const siteConfig = {
 
   // For Netlify hosting
   url: 'https://tomokomiyake.netlify.app',
-  // baseUrl: '/',
+  baseUrl: '/',
   projectName: 'docusaurus-proto',
   organizationName: 'tomokomiyake',
   headerLinks: [
