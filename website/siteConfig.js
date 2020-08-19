@@ -26,7 +26,7 @@ const siteConfig = {
     {page: 'help', label: 'Help'},
     {href: 'https://github.com/TomokoMiyake/docusaurus-proto', label: 'GitHub'}, // Need to change to kuc repo
     {search: true},
-    {languages: true}
+    {languages: false}
   ],
   headerIcon: 'img/kuc_logo_white.png',
   footerIcon: 'img/kuc_box_white.png',

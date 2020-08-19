@@ -7,21 +7,28 @@
       "version-0.1.0-getting-started/quick-start"
     ],
     "Components": [
-      "version-0.1.0-components/attachment",
-      "version-0.1.0-components/button",
-      "version-0.1.0-components/checkbox",
-      "version-0.1.0-components/date-time",
-      "version-0.1.0-components/dialog",
-      "version-0.1.0-components/dropdown",
-      "version-0.1.0-components/editable-table",
-      "version-0.1.0-components/icon-button",
-      "version-0.1.0-components/multiple-choice",
-      "version-0.1.0-components/notify-popup",
-      "version-0.1.0-components/radio-button",
-      "version-0.1.0-components/readable-table",
-      "version-0.1.0-components/spinner",
-      "version-0.1.0-components/text",
-      "version-0.1.0-components/text-area"
+      {
+        "Desktop": [
+          "components/desktop/attachment",
+          "components/desktop/button",
+          "components/desktop/checkbox",
+          "components/desktop/date-time",
+          "components/desktop/dialog",
+          "components/desktop/dropdown",
+          "components/desktop/editable-table",
+          "components/desktop/icon-button",
+          "components/desktop/multiple-choice",
+          "components/desktop/notify-popup",
+          "components/desktop/radio-button",
+          "components/desktop/readable-table",
+          "components/desktop/spinner",
+          "components/desktop/text",
+          "components/desktop/text-area"
+        ],
+        "Mobile": [
+          "components/mobile/button"
+        ]
+      }
     ]
   }
 }

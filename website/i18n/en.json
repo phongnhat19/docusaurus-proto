@@ -5,65 +5,69 @@
     "previous": "Previous",
     "tagline": "",
     "docs": {
-      "components/attachment": {
+      "components/desktop/attachment": {
         "title": "Attachment",
         "sidebar_label": "Attachment"
       },
-      "components/button": {
+      "components/desktop/button": {
         "title": "Button",
         "sidebar_label": "Button"
       },
-      "components/checkbox": {
+      "components/desktop/checkbox": {
         "title": "Checkbox",
         "sidebar_label": "Checkbox"
       },
-      "components/date-time": {
+      "components/desktop/date-time": {
         "title": "DateTime",
         "sidebar_label": "DateTime"
       },
-      "components/dialog": {
+      "components/desktop/dialog": {
         "title": "Dialog",
         "sidebar_label": "Dialog"
       },
-      "components/dropdown": {
+      "components/desktop/dropdown": {
         "title": "Dropdown",
         "sidebar_label": "Dropdown"
       },
-      "components/editable-table": {
+      "components/desktop/editable-table": {
         "title": "EditableTable",
         "sidebar_label": "EditableTable"
       },
-      "components/icon-button": {
+      "components/desktop/icon-button": {
         "title": "IconButton",
         "sidebar_label": "IconButton"
       },
-      "components/multiple-choice": {
+      "components/desktop/multiple-choice": {
         "title": "MultipleChoice",
         "sidebar_label": "MultipleChoice"
       },
-      "components/notify-popup": {
+      "components/desktop/notify-popup": {
         "title": "NotifyPopup",
         "sidebar_label": "NotifyPopup"
       },
-      "components/radio-button": {
+      "components/desktop/radio-button": {
         "title": "RadioButton",
         "sidebar_label": "RadioButton"
       },
-      "components/readable-table": {
+      "components/desktop/readable-table": {
         "title": "ReadableTable",
         "sidebar_label": "ReadableTable"
       },
-      "components/spinner": {
+      "components/desktop/spinner": {
         "title": "Spinner",
         "sidebar_label": "Spinner"
       },
-      "components/text-area": {
+      "components/desktop/text-area": {
         "title": "TextArea",
         "sidebar_label": "TextArea"
       },
-      "components/text": {
+      "components/desktop/text": {
         "title": "Text",
         "sidebar_label": "Text"
+      },
+      "components/mobile/mobile-button": {
+        "title": "MobileButton",
+        "sidebar_label": "MobileButton"
       },
       "getting-started/quick-start": {
         "title": "Quick Start",
@@ -73,65 +77,69 @@
         "title": "Navigation",
         "sidebar_label": "Navigation"
       },
-      "version-0.1.0/components/version-0.1.0-attachment": {
+      "version-0.1.0/components/desktop/version-0.1.0-attachment": {
         "title": "Attachment",
         "sidebar_label": "Attachment"
       },
-      "version-0.1.0/components/version-0.1.0-button": {
+      "version-0.1.0/components/desktop/version-0.1.0-button": {
         "title": "Button",
         "sidebar_label": "Button"
       },
-      "version-0.1.0/components/version-0.1.0-checkbox": {
+      "version-0.1.0/components/desktop/version-0.1.0-checkbox": {
         "title": "Checkbox",
         "sidebar_label": "Checkbox"
       },
-      "version-0.1.0/components/version-0.1.0-date-time": {
+      "version-0.1.0/components/desktop/version-0.1.0-date-time": {
         "title": "DateTime",
         "sidebar_label": "DateTime"
       },
-      "version-0.1.0/components/version-0.1.0-dialog": {
+      "version-0.1.0/components/desktop/version-0.1.0-dialog": {
         "title": "Dialog",
         "sidebar_label": "Dialog"
       },
-      "version-0.1.0/components/version-0.1.0-dropdown": {
+      "version-0.1.0/components/desktop/version-0.1.0-dropdown": {
         "title": "Dropdown",
         "sidebar_label": "Dropdown"
       },
-      "version-0.1.0/components/version-0.1.0-editable-table": {
+      "version-0.1.0/components/desktop/version-0.1.0-editable-table": {
         "title": "EditableTable",
         "sidebar_label": "EditableTable"
       },
-      "version-0.1.0/components/version-0.1.0-icon-button": {
+      "version-0.1.0/components/desktop/version-0.1.0-icon-button": {
         "title": "IconButton",
         "sidebar_label": "IconButton"
       },
-      "version-0.1.0/components/version-0.1.0-multiple-choice": {
+      "version-0.1.0/components/desktop/version-0.1.0-multiple-choice": {
         "title": "MultipleChoice",
         "sidebar_label": "MultipleChoice"
       },
-      "version-0.1.0/components/version-0.1.0-notify-popup": {
+      "version-0.1.0/components/desktop/version-0.1.0-notify-popup": {
         "title": "NotifyPopup",
         "sidebar_label": "NotifyPopup"
       },
-      "version-0.1.0/components/version-0.1.0-radio-button": {
+      "version-0.1.0/components/desktop/version-0.1.0-radio-button": {
         "title": "RadioButton",
         "sidebar_label": "RadioButton"
       },
-      "version-0.1.0/components/version-0.1.0-readable-table": {
+      "version-0.1.0/components/desktop/version-0.1.0-readable-table": {
         "title": "ReadableTable",
         "sidebar_label": "ReadableTable"
       },
-      "version-0.1.0/components/version-0.1.0-spinner": {
+      "version-0.1.0/components/desktop/version-0.1.0-spinner": {
         "title": "Spinner",
         "sidebar_label": "Spinner"
       },
-      "version-0.1.0/components/version-0.1.0-text-area": {
+      "version-0.1.0/components/desktop/version-0.1.0-text-area": {
         "title": "TextArea",
         "sidebar_label": "TextArea"
       },
-      "version-0.1.0/components/version-0.1.0-text": {
+      "version-0.1.0/components/desktop/version-0.1.0-text": {
         "title": "Text",
         "sidebar_label": "Text"
+      },
+      "version-0.1.0/components/mobile/version-0.1.0-mobile-button": {
+        "title": "MobileButton",
+        "sidebar_label": "MobileButton"
       },
       "version-0.1.0/getting-started/version-0.1.0-quick-start": {
         "title": "Quick Start",
@@ -163,8 +171,6 @@
     "Stay up to date|no description given": "Stay up to date",
     "Need help?|no description given": "Need help?",
     "This project is maintained by a dedicated group of people.|statement made to reader": "This project is maintained by a dedicated group of people.",
-    "Each new Docusaurus project has **randomly-generated** theme colors.|no description given": "Each new Docusaurus project has **randomly-generated** theme colors.",
-    "Randomly Generated Theme Colors|no description given": "Randomly Generated Theme Colors",
     "Help Translate|recruit community translators for your project": "Help Translate",
     "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
     "Translate this Doc|recruitment message asking to translate the docs": "Translate"

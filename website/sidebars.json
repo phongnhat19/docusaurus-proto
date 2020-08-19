@@ -3,21 +3,28 @@
     "Overview": ["overview/navigation"],
     "Getting Started": ["getting-started/quick-start"],
     "Components": [
-      "components/attachment",
-      "components/button",
-      "components/checkbox",
-      "components/date-time",
-      "components/dialog",
-      "components/dropdown",
-      "components/editable-table",
-      "components/icon-button",
-      "components/multiple-choice",
-      "components/notify-popup",
-      "components/radio-button",
-      "components/readable-table",
-      "components/spinner",
-      "components/text",
-      "components/text-area"
+      {
+        "Desktop": [
+          "components/desktop/attachment",
+          "components/desktop/button",
+          "components/desktop/checkbox",
+          "components/desktop/date-time",
+          "components/desktop/dialog",
+          "components/desktop/dropdown",
+          "components/desktop/editable-table",
+          "components/desktop/icon-button",
+          "components/desktop/multiple-choice",
+          "components/desktop/notify-popup",
+          "components/desktop/radio-button",
+          "components/desktop/readable-table",
+          "components/desktop/spinner",
+          "components/desktop/text",
+          "components/desktop/text-area"
+        ],
+        "Mobile": [
+          "components/mobile/button"
+        ]
+      }
     ]
   }
 }
