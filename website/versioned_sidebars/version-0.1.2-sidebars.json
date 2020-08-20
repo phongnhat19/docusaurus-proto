@@ -1,0 +1,40 @@
+{
+  "version-0.1.2-docs": {
+    "Overview": [
+      "version-0.1.2-overview/navigation"
+    ],
+    "Getting Started": [
+      "version-0.1.2-getting-started/quick-start"
+    ],
+    "Components": [
+      {
+        "type": "subcategory",
+        "label": "Desktop",
+        "ids": [
+          "version-0.1.2-components/desktop/attachment",
+          "version-0.1.2-components/desktop/button",
+          "version-0.1.2-components/desktop/checkbox",
+          "version-0.1.2-components/desktop/date-time",
+          "version-0.1.2-components/desktop/dialog",
+          "version-0.1.2-components/desktop/dropdown",
+          "version-0.1.2-components/desktop/editable-table",
+          "version-0.1.2-components/desktop/icon-button",
+          "version-0.1.2-components/desktop/multiple-choice",
+          "version-0.1.2-components/desktop/notify-popup",
+          "version-0.1.2-components/desktop/radio-button",
+          "version-0.1.2-components/desktop/readable-table",
+          "version-0.1.2-components/desktop/spinner",
+          "version-0.1.2-components/desktop/text",
+          "version-0.1.2-components/desktop/text-area"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Mobile",
+        "ids": [
+          "version-0.1.2-components/mobile/mobile-button"
+        ]
+      }
+    ]
+  }
+}
